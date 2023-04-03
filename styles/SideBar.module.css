@@ -1,0 +1,30 @@
+.sideNav
+{
+  list-style: none;
+    padding: 0;
+    color: black;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.container
+{
+  left: 0;
+  color: rgba(240, 150, 150, 0.85);
+}
+.bm-overlay, .myclass
+{
+  background-color: transparent !important;
+}
+.nav:active
+{
+    background-color: #e3dddd;
+    width: 100%;
+}
+.bmCrossButton:active
+{
+  background-color: #e8e3e3;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}

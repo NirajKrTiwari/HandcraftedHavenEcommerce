@@ -1,0 +1,227 @@
+.maylikewrapper {
+  margin-top: 4rem;
+}
+
+.maylikewrapper h2 {
+  text-align: center;
+  margin: 0 50px 30px 50px;
+  color: #324d67;
+
+  font-size: 28px;
+}
+
+.maylikecontainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.track {
+  animation: marquee 9s linear infinite;
+  width: 550%;
+}
+
+.marqueetext {
+  font-size: 29px;
+  font-weight: 600;
+  margin: 60px 0px;
+  color: #f02d34;
+}
+
+.marquee {
+  position: relative;
+  height: 27vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 9s linear infinite;
+  width: 180%;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* .maylikewrapper>
+  h2{
+    color: red;
+  } */
+
+
+
+.ImageWrapper {
+  height: 16rem;
+  width: 22rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.menu {
+  row-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.food {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 2rem;
+}
+
+.food>:nth-child(2),
+.food>:nth-child(3) {
+  padding-left: 2rem;
+}
+
+.ImageWrapper>span>img:hover {
+  transform: scale(1.1);
+}
+
+.food:hover {
+  cursor: pointer;
+}
+
+.productcard {
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  color: #324d67;
+  width: min-content;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.productcard:hover {
+  transform: scale(1.1, 1.1)
+}
+
+.productimage {
+  border-radius: 2rem;
+  background-color: #ebebeb;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  width: 19vw;
+  height: 17vw;
+}
+
+.productcard>span {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 0 0 4px;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+  .ImageWrapper {
+    /* width: 19rem; */
+    height: 34vw;
+    width: 44vw;
+  }
+
+  .food>:nth-child(2),
+  .food>:nth-child(3) {
+    padding-left: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+  }
+  .productimage {
+    width: 47vw;
+    height: 39vw;
+  }
+
+  .marquee {
+    height: 55vw;
+  }
+
+  .maylikewrapper h2 {
+    text-align: center;
+    margin: 0 50px 0px 50px;
+    color: #324d67;
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .ImageWrapper {
+    /* height: 9rem;
+      width: 10rem; */
+    height: 37vw;
+    width: 40vw;
+  }
+
+  .food>:nth-child(2),
+  .food>:nth-child(3) {
+    padding-left: 0rem;
+    /* font-size: 12px; */
+    font-size: 3vw;
+    padding-left: 5px;
+  }
+
+  .menu {
+    row-gap: 1rem;
+  }
+
+  .menu {
+    justify-content: space-evenly;
+  }
+
+  .food {
+    /* max-width: 160px; */
+    max-width: 40vw;
+    ;
+    margin: 0;
+  }
+
+  .productimage {
+    width: 50vw;
+    height: 40vw;
+  }
+
+  .marquee {
+    height: 65vw;
+  }
+
+  .maylikewrapper h2 {
+    text-align: center;
+    margin: 0 50px 0px 50px;
+    color: #324d67;
+    font-size: 1.5rem;
+  }
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 5s linear infinite;
+    width: 500%;
+  }
+}

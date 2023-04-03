@@ -1,0 +1,113 @@
+.container
+{
+    padding:2rem;
+    display:grid;
+    grid-template-columns: 2.2fr 1fr;
+    grid-gap: 2rem;
+    font-size: 1rem;
+    min-height: 77vh;
+}
+#payOn
+{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.table
+{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1rem;
+}
+.table>tr>td{
+    text-align: center;
+}
+.tbody>tr>:nth-child(2)
+{
+    width: 15%;
+}
+.imageTd>span>img{
+    border-radius: 1rem;
+}
+.tbody
+{
+    text-align: center;
+}
+.cart
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 18rem;
+    width: 16rem;
+    background-color: var(--cartBack);
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    padding: 1rem;
+}
+.cart>span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.CartDetails
+{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.CartDetails>div{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    display: flex;
+    gap: 1rem;
+}
+.button>*
+{
+    font-size: .8rem;
+    padding: .8rem;
+}
+.button>:nth-child(1)
+{
+    background-color: transparent;
+    color:var(--themeRed);
+    border: 2px solid var(--themeRed);
+}
+
+@media only screen and (max-width: 900px) and (min-width: 730px)  {
+    .container
+    {
+        padding:1rem;
+        display:grid;
+        grid-template-columns: 2.2fr 1fr;
+        grid-gap: 1rem;
+    }
+    .cart
+    {
+        width: 15rem;
+    }
+}
+@media only screen and (max-width: 729px) {
+    .container
+    {
+        padding: 1rem;
+        font-size: 0.9rem;
+        flex-direction: column;
+        display: flex;
+        min-height: 77vh;
+    }
+    .cart
+    {
+        width: 100%;
+    }
+    .table
+{
+    margin: -1rem;
+}
+.cart
+{
+    height: 14rem;
+}
+}
