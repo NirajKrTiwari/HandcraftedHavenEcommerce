@@ -9,7 +9,7 @@ import OrderModal from "../components/OrderModal";
 import { useRouter } from "next/router";
 import { UilTrash } from '@iconscout/react-unicons';
 import { client } from '../lib/client';
-export default function cart (){
+export default function Cart (){
     const router=useRouter();
     const CartData= useStore((state)=>state.cart);
     const removeFood =useStore((state)=>state.removeFood);
