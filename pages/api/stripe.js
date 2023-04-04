@@ -18,7 +18,7 @@ export default async function(req,res){
                 const newImage=img
                 .replace(
                     'image-',
-                    "https://cdn.sanity.io/images/5stz9231/production/"
+                    "https://cdn.sanity.io/images/hg26yzeb/production/"
                 )
                 .replace('-jpg,','.jpg');
                 return{
@@ -37,7 +37,7 @@ export default async function(req,res){
                 }
             }),
             success_url:`${req.headers.origin}/success`,
-            cancel_url:`${req.headers.origin}/cart`,
+            cancel_url:`${req.headers.origin}/Cart`,
             };
             const session=await stripe.checkout.sessions.create(params);
             console.log(session);

@@ -16,7 +16,7 @@ export default function Hero() {
       <Link href="https://www.google.com/maps/place/%22UNDER+BELLY%22+Food+Court+@+VIT/@23.0774289,76.8505799,15z/data=!4m6!3m5!1s0x397ce925786259b3:0xe42954da017e0246!8m2!3d23.0774289!4d76.8505799!16s%2Fg%2F11fjs9bw9t">
       <a target="_blank"> 
       <div className={css.cherryDiv}>
-      <span>VIT Bhopal</span>
+      <span>Location</span>
           <span className={css.cherryIcon}>
           <Image src={location} alt="" width={40} height={30} />
           </span>
@@ -27,7 +27,7 @@ export default function Hero() {
           <span>Be The Fastest</span>
           <span>In Delivering</span>
           <span>
-            ~Your <span style={{ color:'#e70001' }}>Under Belly</span>
+            ~Your <span style={{ color:'#e70001' }}>Handmade Haven</span>
           </span>
         </div>
         <span className={css.miniText}>
@@ -47,9 +47,9 @@ export default function Hero() {
         </div>
         <Link href="tel:+91 7005762566">
           <div className={css.ContactUs}>
-            {/* <span>
+            <span>
               Contact Us
-            </span> */}
+            </span>
             <div className={css.phoneIcon}>
               <UilPhone color='white' />
             </div>
@@ -84,7 +84,7 @@ export default function Hero() {
           </div>
         </Link>
 
-        <Link href="/food/paneer-pizza">
+        {/* <Link href="/food/paneer-pizza">
           <div className={css.Pizza}>
           <div>
             <Image src={Pizzal} alt="" objectFit='cover' layout='intrinsic' />
@@ -96,7 +96,8 @@ export default function Hero() {
             <span><span style={{ color: 'var(--themeRed)' }}>Rs.</span> 250</span>
           </div>
         </div>
-        </Link>
+        </Link> */}
+
       </div>
 
 

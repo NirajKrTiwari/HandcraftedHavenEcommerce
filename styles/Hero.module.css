@@ -101,9 +101,9 @@ cursor: pointer;
     top: -5em;
     left: -5rem;
     z-index: 1; */
-    width: 32rem !important;
+    width: 54vw !important;
     position: absolute;
-    top: -2em;
+    top: 0;
     left: 2rem;
     z-index: 1;
 }
@@ -247,10 +247,10 @@ cursor: pointer;
     }
 
     .imageContainer {
-        width: 26rem !important;
+        width: 54vw !important;
         position: absolute;
         left: 0rem;
-        top: 0rem;
+        top: 2rem;
     }
 
     .Pizza {
@@ -287,7 +287,7 @@ cursor: pointer;
 
 
     .heroText {
-        font-size: 1rem;
+        font-size: 4.8vw;
         z-index: 2;
     }
 
@@ -332,11 +332,11 @@ cursor: pointer;
         top: -3em;
         left: -6rem;
         z-index: 1; */
-        width: 12rem !important;
-        position: absolute;
-        top: 0em;
-        left: 0rem;
-        z-index: 1;
+        width: 78vw !important;
+    position: absolute;
+    top: 1em;
+    left: -3rem;
+    z-index: 1;
     }
 
     .Pizza {

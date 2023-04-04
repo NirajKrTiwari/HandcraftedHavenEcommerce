@@ -123,7 +123,7 @@ export default function Cart (){
                 <table className={css.table}>
                         <thead>
                             <tr>
-                            <th>Food</th>
+                            <th>Items</th>
                             <th>Name</th>
                             <th>Price</th>
                             <th>Quantity</th>
