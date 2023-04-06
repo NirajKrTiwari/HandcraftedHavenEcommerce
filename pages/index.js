@@ -7,6 +7,7 @@ import {client} from "../lib/client";
 import Menu from "../components/Menu";
 import About from "../components/About.jsx";
 import Marquee from "../components/Marquee";
+import Category from "../components/Category";
 
 
 export default function Home({ub}) {
@@ -21,6 +22,7 @@ export default function Home({ub}) {
         {/* body */}
         <main>
           <Hero/>
+          <Category/>
           <Marquee ub={ub}/>
           <Services/>
           {/* <Menu ub={ub} /> */}

@@ -112,7 +112,6 @@ export default function Cart (){
             setcounter(true);
         }
     });
-    console.log(counter);
 
     
         
@@ -123,7 +122,7 @@ export default function Cart (){
                 <table className={css.table}>
                         <thead>
                             <tr>
-                            <th>Items</th>
+                            <th>Food</th>
                             <th>Name</th>
                             <th>Price</th>
                             <th>Quantity</th>
@@ -199,7 +198,7 @@ export default function Cart (){
             opened={PaymentMethod === 0}
             setOpened={setPaymentMethod}
             PaymentMethod ={PaymentMethod}
-            foodname={foodname}
+            // foodname={foodname}
             />
         </Layout>
     )

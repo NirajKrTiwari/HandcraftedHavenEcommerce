@@ -5,9 +5,7 @@
 .maylikewrapper h2 {
   text-align: center;
   margin: 0 50px 30px 50px;
-  color: #324d67;
-
-  font-size: 28px;
+  font-size: 2rem;
 }
 
 .maylikecontainer {
@@ -165,13 +163,16 @@
   .maylikewrapper h2 {
     text-align: center;
     margin: 0 50px 0px 50px;
-    color: #324d67;
     font-size: 1.5rem;
   }
 
 }
 
 @media only screen and (max-width: 600px) {
+  .maylikewrapper
+  {
+    display: none;
+  }
   .ImageWrapper {
     /* height: 9rem;
       width: 10rem; */
@@ -214,8 +215,7 @@
   .maylikewrapper h2 {
     text-align: center;
     margin: 0 50px 0px 50px;
-    color: #324d67;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .track {
     position: absolute;

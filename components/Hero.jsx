@@ -1,7 +1,6 @@
 import React from 'react';
 import css from '../styles/Hero.module.css';
-import Image from 'next/image';
-import Cherry from '../assets/Cherry.png';
+import Image from 'next/image'; 
 import HeroImage from '../assets/hero-img.png';
 import { UilPhone } from '@iconscout/react-unicons';
 import Pizzal from '../assets/p1.jpg';

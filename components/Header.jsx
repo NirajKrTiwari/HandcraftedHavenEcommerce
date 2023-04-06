@@ -1,6 +1,5 @@
 import css from '../styles/Header.module.css'
 import Image from 'next/image';
-import Logo from '../assets/Logo.png';
 import MenuIcon from '../assets/menuIcon.png';
 import Link from 'next/link';
 import { UilShoppingBag } from '@iconscout/react-unicons';
@@ -8,6 +7,8 @@ import { useStore } from "../store/store";
 import { useEffect, useState } from 'react';
 import { UilReceipt } from '@iconscout/react-unicons';
 import SideBar from './SideBar';
+import Logo from "../assets/Logo.png"
+
 export default function Header() {
   const items = useStore((state) => state.cart.food.length);
   const CartData = useStore((state) => state.cart);
@@ -25,8 +26,8 @@ export default function Header() {
       </div>
       <Link href="/">
         <div className={css.logo}>
-          {/* <Image src={Logo} alt="" width={200} height={110} /> */}
-          <h2>Handmade Haven</h2>
+          <Image src={Logo} alt="" width={80} height={80} />
+          {/* <h2>Handmade Haven</h2> */}
         </div>
       </Link>
       <ul className={css.menu}>

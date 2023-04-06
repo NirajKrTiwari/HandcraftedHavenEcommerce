@@ -6,6 +6,7 @@ import {client} from "../lib/client";
 import css from "../styles/List.module.css"
 export default function List({ub}) {
     const router = useRouter();
+    const [value, setvalue] = useState("")
     return (
         <Layout>
             <div className={css.container}>
