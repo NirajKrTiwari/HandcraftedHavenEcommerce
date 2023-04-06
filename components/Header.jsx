@@ -26,7 +26,13 @@ export default function Header() {
       </div>
       <Link href="/">
         <div className={css.logo}>
-          <Image src={Logo} alt="" width={80} height={80} />
+          <Image src={Logo} alt="" width={60} height={60} 
+          style={{
+            borderRadius: "50%",
+            border: "2px solid var(--themeRed)",
+            padding: "5px"
+          }}
+          />
           {/* <h2>Handmade Haven</h2> */}
         </div>
       </Link>
