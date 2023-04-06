@@ -36,7 +36,7 @@ export default function Header() {
       </ul>
 
       <div className={css.rightSide}>
-        <Link href='/Cart'>
+        <Link href='/cart'>
           <div className={css.cart}>
             <UilShoppingBag size={35} color="#2E2E2E" />
             <div className={css.badge}>{items}</div>
