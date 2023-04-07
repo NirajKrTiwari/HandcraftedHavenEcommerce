@@ -27,7 +27,7 @@ export default function Menu({ub})
                 if(underbelly.category.includes(value)){
                 return (
                     <div className={css.food} key={id}>
-                        <Link href={`./food/${underbelly.slug.current}`}>
+                        <Link href={`./product/${underbelly.slug.current}`}>
                         <div className={css.ImageWrapper}>
                             <Image
                                 loader={() => src}
@@ -52,7 +52,7 @@ export default function Menu({ub})
                 const src = urlFor(underbelly.image).url();
                 return (
                     <div className={css.food} key={id}>
-                        <Link href={`./food/${underbelly.slug.current}`}>
+                        <Link href={`./product/${underbelly.slug.current}`}>
                         <div className={css.ImageWrapper}>
                             <Image
                                 loader={() => src}

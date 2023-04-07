@@ -2,12 +2,12 @@ import Image from 'next/image';
 import css from '../styles/About.module.css';
 import AboutImage from '../assets/about.jpg';
 import { useRouter } from "next/router";
+import Layout from './Layout';
 
 export default function About() {
     const router = useRouter();
     return (
-            
-            <div className={css.container} id="about">
+             <div className={css.container} id="about">
                 <div className={css.content}>
                 <h1>About</h1>
             <p>

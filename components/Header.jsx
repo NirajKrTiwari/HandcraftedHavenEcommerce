@@ -26,12 +26,12 @@ export default function Header() {
       </div>
       <Link href="/">
         <div className={css.logo}>
-          <Image src={Logo} alt="" width={60} height={60} 
-          style={{
-            borderRadius: "50%",
-            border: "2px solid var(--themeRed)",
-            padding: "5px"
-          }}
+          <Image src={Logo} alt="" width={150} height={80} 
+          // style={{
+          //   borderRadius: "50%",
+          //   border: "2px solid var(--themeRed)",
+          //   padding: "5px"
+          // }}
           />
           {/* <h2>Handmade Haven</h2> */}
         </div>
@@ -39,11 +39,11 @@ export default function Header() {
       <ul className={css.menu}>
         <Link href="/"><li>Home</li></Link>
         <Link href="/List"><li>Menu</li></Link>
-        <Link href="/#about"><li>About</li></Link>
+        <Link href="/about"><li>About</li></Link>
       </ul>
 
       <div className={css.rightSide}>
-        <Link href='/cart'>
+        <Link href='/Cart'>
           <div className={css.cart}>
             <UilShoppingBag size={35} color="#2E2E2E" />
             <div className={css.badge}>{items}</div>
