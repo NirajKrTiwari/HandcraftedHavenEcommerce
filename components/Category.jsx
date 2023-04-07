@@ -33,37 +33,37 @@ export default function Category()
             <h2>Category</h2>
             <div className={css.wrapperInternal}>
                 <div className={css.category} onClick={()=>{setvalue("Handicraft Items")}}>
-                    <div className={css.image} ><Image className={css.image} src={HandicraftItems} height={175} width={175} /></div>
+                    <div className={css.image} ><Image alt="" className={css.image} src={HandicraftItems} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                     Handicraft Items
                     </p>
                 </div>
                 <div className={css.category} onClick={()=>{setvalue("Water Fountains")}}>
-                    <div className={css.image}><Image className={css.image} src={WaterFountains} height={175} width={175} /></div>
+                    <div className={css.image}><Image alt="" className={css.image} src={WaterFountains} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                     Water Fountains
                     </p>
                 </div>
                 <div className={css.category} onClick={()=>{setvalue("Buddha Idols")}}>
-                    <div className={css.image}><Image className={css.image} src={BuddhaIdols} height={175} width={175} /></div>
+                    <div className={css.image}><Image alt="" className={css.image} src={BuddhaIdols} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                     Buddha Idols
                     </p>
                 </div>
                 <div className={css.category} onClick={()=>{setvalue("Wall Hangings")}}>
-                    <div className={css.image}><Image className={css.image} src={WallHangings} height={175} width={175} /></div>
+                    <div className={css.image}><Image alt="" className={css.image} src={WallHangings} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                     Wall Hangings
                     </p>
                 </div>
                 <div className={css.category} onClick={()=>{setvalue("Paintings")}}>
-                    <div className={css.image}><Image className={css.image} src={Paintings} height={175} width={175} /></div>
+                    <div className={css.image}><Image alt="" className={css.image} src={Paintings} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                     Paintings
                     </p>
                 </div>
                 <div className={css.category} onClick={()=>{setvalue("Wood Works")}}>
-                    <div className={css.image}><Image className={css.image} src={WoodWorks} height={175} width={175} /></div>
+                    <div className={css.image}><Image alt="" className={css.image} src={WoodWorks} height={175} width={175} /></div>
                     <p className={css.categoryName}>
                         Wood Works
                     </p>

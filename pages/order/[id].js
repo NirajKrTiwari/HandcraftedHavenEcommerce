@@ -7,11 +7,12 @@ import Cooking from '../../assets/cooking.png';
 import Onway from '../../assets/onway.png';
 import { UilBox } from '@iconscout/react-unicons';
 import Spinner from '../../assets/spinner.svg';
-import { useEffect, useState } from 'react';
+import { useEffect} from 'react';
 import {useRouter} from 'next/router';
 import CancelPopUp from "../../components/CancelPopUp.jsx";
 import Head from "next/head";
 import favicon from "./favicon.ico"
+
 export const getServerSideProps = async ({ params }) => {
     const query = `*[_type=='order' && _id== '${params.id}']`;
     const order = await client.fetch(query);
