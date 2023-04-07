@@ -11,7 +11,7 @@ import { useEffect} from 'react';
 import {useRouter} from 'next/router';
 import CancelPopUp from "../../components/CancelPopUp.jsx";
 import Head from "next/head";
-import favicon from "./favicon.ico"
+import favicon from "../favicon.ico"
 
 export const getServerSideProps = async ({ params }) => {
     const query = `*[_type=='order' && _id== '${params.id}']`;

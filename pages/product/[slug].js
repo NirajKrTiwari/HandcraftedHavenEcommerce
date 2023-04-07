@@ -9,7 +9,7 @@ import { useStore } from '../../store/store';
 import toast,{Toaster} from 'react-hot-toast';
 import Marquee from '../../components/Marquee';
 import Head from "next/head";
-import favicon from "./favicon.ico"
+import favicon from "../favicon.ico"
 export default function Food({ food }){
     const src = urlFor(food.image).url();
     const [quantity, setQuantity] = useState(1);
