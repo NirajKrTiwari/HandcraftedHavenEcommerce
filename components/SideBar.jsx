@@ -4,6 +4,7 @@ import css from "../styles/SideBar.module.css";
 import Link from 'next/link';
 import { useState } from 'react';
 // import Icon from '../assets/menu.svg'
+import Image from 'next/image'
 export default function SideBar(props) {
 
   var styles = {
