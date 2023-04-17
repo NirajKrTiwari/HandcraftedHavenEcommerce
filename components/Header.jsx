@@ -26,7 +26,7 @@ export default function Header() {
       </div>
       <Link href="/">
         <div className={css.logo}>
-          <Image src={Logo} alt="" width={150} height={80} 
+          <Image src={Logo} alt="" width={120} height={80} 
           // style={{
           //   borderRadius: "50%",
           //   border: "2px solid var(--themeRed)",

@@ -17,7 +17,7 @@ export default function Marquee({ub}) {
                 const src = urlFor(underbelly.image).url();
                 return (
                     <div className={css.productcard} key={id}>
-                        <Link href={`./food/${underbelly.slug.current}`}>
+                        <Link href={`./product/${underbelly.slug.current}`}>
                         <div className={css.productimage}>
                             <Image
                                 loader={() => src}
