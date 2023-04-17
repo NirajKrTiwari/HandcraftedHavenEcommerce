@@ -85,14 +85,15 @@ const handleInput=(e)=>
         <input onChange={handleInput} type="text" name='name' placeholder='Name' required />
         <input onChange={handleInput} type="number" name='phone' placeholder='Phone Number' required/>
         {/* <textarea name="address"  rows={3}></textarea> */}
-        <select onChange={handleInput} name="address" id="address" placeholder='Address' required>
+        {/* <select onChange={handleInput} name="address" id="address" placeholder='Address' required>
             <option value="" disabled selected hidden>Address...</option>
             <option value="Academic Block">Academic Block</option>
             <option value="Girl's Hostel">Girls Hostel</option>
             <option value="Boy's Hostel Block-1">Boys Hostel Block-1</option>
             <option value="Boy's Hostel Block-2">Boys Hostel Block-2</option>
             <option value="Boy's Hostel Block-3">Boys Hostel Block-3</option>
-        </select>
+        </select> */}
+        <input onChange={handleInput} type="text" name='address' id='address' placeholder='Address' required/>
         <span>You will Pay <span>Rs. {total}</span> on delivery</span>
         <button  onClick={handleSubmit} type='submit' className={css.btn}>Place Order</button>
       </form>

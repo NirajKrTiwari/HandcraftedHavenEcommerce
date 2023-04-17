@@ -86,8 +86,10 @@ export default function Cart (){
             },
             body:JSON.stringify(CartData.food),
         });
+
         if(response.status===500)    
         return;
+
         const data=await response.json();
         toast.loading("Redirecting.....");
         router.push(data.url);
@@ -117,7 +119,7 @@ export default function Cart (){
 
     
         
-    return(
+     return(
         <Layout>
             <Head>
           <title>Handmade Haven</title>

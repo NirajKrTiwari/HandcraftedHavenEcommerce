@@ -1,6 +1,6 @@
 import Stripe from 'stripe'
 const stripe=new Stripe(
-    "pk_test_51MrbWMSDY1iigbaDC4rHvzw4nKyFiCTaYJMt3qfLf03PkGtujTLI5Ag2YvJfFxfK72gWnI2nVV1MVR7FGsZTQGA900s1VNpbmE"
+    "sk_test_51MrbWMSDY1iigbaDMxmb5tKkhsmNU12vFg0Zu6X0vt1vqnvelOPHSxRjKickHRSIe9GJwzCodOk00SjZT4wrLGhE00C6fsUKMi"
 )
 
 export default async function(req,res){
@@ -20,7 +20,7 @@ export default async function(req,res){
                     'image-',
                     "https://cdn.sanity.io/images/hg26yzeb/production/"
                 )
-                .replace('-jpg,','.jpg');
+                .replace('-jpg','.jpg');
                 return{
                     price_data:{
                         currency:'inr',
