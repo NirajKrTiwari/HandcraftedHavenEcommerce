@@ -31,20 +31,26 @@ const resetCart=useStore((state)=>state.resetCart)
 const [disabled, setDisabled] = useState(false);
 const handleSubmit=async (e)=>
 {
-  
+  //validate to click handleSubmit once
+  if(disabled) return; 
   // if(check==1){
-    console.log("valid"+check);
-    e.stopPropagation();
-    e.preventDefault();
+    // console.log("valid"+check);
+    if(disabled==false)
+    {
     setDisabled(true);
+    // e.stopPropagation();
+    e.preventDefault();
     const cancel="false";
     const id=await createOrder({...FormData,foodname,total,PaymentMethod,cancel});
+    //toast once validation
     toast.success("Order Placed Successfully");
+    //reset cart
     resetCart();
     {
         typeof window != 'undefined' && localStorage.setItem('order',id);
     }
     router.push(`/order/${id}`)
+  }
   // }
   // else{
   //   toast.error("Invalid Mobile Number");

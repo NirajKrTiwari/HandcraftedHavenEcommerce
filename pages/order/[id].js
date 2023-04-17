@@ -93,7 +93,7 @@ export default function Orders({ order }) {
                     <div><span>Method</span><span>{order.method === 0 ? 'Cash on Delivery' : 'Online Payment(Paid)'}</span></div>
                     <div><span>Items</span><span className={css.foodname}>{order.foodname}</span></div>
                     <div><span>Total</span><span>Rs. {order.total}</span></div>
-                    <div><span>Delivery Time</span><span id="demo" onChange="" style={{ color: 'var(--themeRed)' }}>{time} min</span></div>
+                    {/* <div><span>Delivery Time</span><span id="demo" onChange="" style={{ color: 'var(--themeRed)' }}>{time} min</span></div> */}
                 </div>
                 <div className={css.statusContainer}>
 
@@ -109,7 +109,7 @@ export default function Orders({ order }) {
 
                     <div className={css.status}>
                         <Image src={Cooking} alt="" width={50} height={50} />
-                        <span>Cooking</span>
+                        <span>Packing</span>
                         {order.status === 1 && (
                             <div className={css.spinner}>
                                 <Image src={Spinner} alt="" />
