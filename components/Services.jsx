@@ -11,7 +11,7 @@ export default function Services (){
             <span>
                 WHAT WE SERVE
             </span>
-            <span>Your Favourite Food</span>
+            <span>Your Favourite Handicrafted Products</span>
             {/* <span>Delivery Partner</span> */}
         </div>
     
@@ -21,7 +21,7 @@ export default function Services (){
                     <Image src={s1} alt="" objectFit="cover" layout="intrinsic"/>
                 </div>
                 <span>Easy to Order</span>
-                <span>You only need a few steps in food ordering</span>
+                <span>You only need a few steps in ordering</span>
             </div>
             <div className={css.feature}>
                 <div className={css.ImageWrapper}>
@@ -35,7 +35,7 @@ export default function Services (){
             <div className={css.ImageWrapper}>
                     <Image src={s3} alt="" objectFit="cover" layout="intrinsic"/>
                 </div>
-                <span>Quality Food</span>
+                <span>Quality Products</span>
                     <span>Not only fast for us, quality is also number one</span>
             </div>
         </div>

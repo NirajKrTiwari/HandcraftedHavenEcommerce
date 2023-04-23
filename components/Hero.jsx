@@ -12,7 +12,7 @@ export default function Hero() {
     <div className={css.container}>
       {/* left */}
       <div className={css.left}>
-      <Link href="https://www.google.com/maps/place/%22UNDER+BELLY%22+Food+Court+@+VIT/@23.0774289,76.8505799,15z/data=!4m6!3m5!1s0x397ce925786259b3:0xe42954da017e0246!8m2!3d23.0774289!4d76.8505799!16s%2Fg%2F11fjs9bw9t">
+      <Link href="https://goo.gl/maps/XUjJ59CMDfVo8sgy8">
       <a target="_blank"> 
       <div className={css.cherryDiv}>
       <span>Location</span>

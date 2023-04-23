@@ -14,8 +14,8 @@ export default function Menu({ub})
     return(
         <div className={css.container} id="menu">
         <div className={css.heading}>
-            <span>Our Menu</span>   
-            <span>Menu That Always</span>
+            <span>Our Products</span>   
+            <span>Products That Always</span>
             <span>Make you Fall In Love</span>
         </div>
         {value===undefined?<h2 className={css.category}>All</h2>:<h2 className={css.category}>{value}</h2>}
