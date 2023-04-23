@@ -43,7 +43,9 @@ const handleSubmit=async (e)=>
     const cancel="false";
     const id=await createOrder({...FormData,foodname,total,PaymentMethod,cancel});
     //toast once validation
-    toast.success("Order Placed Successfully");
+
+    // toast.success("Order Placed Successfully");
+    
     //reset cart
     resetCart();
     {
