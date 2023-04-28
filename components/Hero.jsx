@@ -30,7 +30,7 @@ export default function Hero() {
           </span>
         </div>
         <span className={css.miniText}>
-          Our Mission is to filling your tummy with delicious food and with fast and free delivery
+          Our Mission is to filling your house with handcrafted items and with fast and free delivery
         </span>
         <Link href="/List">
           <button id="btn"className={`btn ${css.btn}`}>
