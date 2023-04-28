@@ -3,10 +3,8 @@ import css from '../styles/Hero.module.css';
 import Image from 'next/image'; 
 import HeroImage from '../assets/hero-img.png';
 import { UilPhone } from '@iconscout/react-unicons';
-import Pizzal from '../assets/p1.jpg';
 import Link from 'next/link';
 import location from "../assets/location.png"
-import BannerMobile from '../assets/banner-mobile.png'
 export default function Hero() {
   return (
     <div className={css.container}>

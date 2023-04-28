@@ -11,15 +11,15 @@ export default function About() {
                 <div className={css.content}>
                 <h1>About</h1>
             <p>
-                Welcome to our restaurant, where we believe that great food brings people together. We are a family-owned and operated establishment that has been serving delicious meals to our community for over 6 years.<br/><br/>
-                Our chefs are passionate about creating dishes that are both flavorful and visually stunning. We use only the freshest, highest quality ingredients in all of our recipes. Whether you are in the mood for a juicy steak, a fresh salad, or a decadent dessert, we have something to please every palate.
-                {/* <br/><br/> */}
-                {/* At our restaurant, we also believe in providing exceptional customer service. Our friendly and knowledgeable staff will ensure that your dining experience is nothing short of extraordinary. We pride ourselves on creating a warm and inviting atmosphere where you can relax, unwind, and enjoy a memorable meal.
-                Thank you for considering our restaurant for your next dining experience. We look forward to serving you soon! */}
+            Handcrafted Haven offers access to reserves of handcrafted artefacts - either richly curated by partnering with empanelled artisan communities and independent artists. Borrowing inspiration from our ‘Rajasthani Karigar’ roots, we devote this gateway to the uniformly evolving and ever-inspirational creation of Indian Artisanship.
+<br/>Our mission is to offer the global audience a gateway to hand-picked Indian artefacts and incite a conversation dedicated to conserving arts and crafts. Rajasthan is famously known for the "Treasure trove of Indian handicrafts". These handicrafts have also earned the country endless love. Hence, we bring your handiworks directly here from Rajasthan under one roof.
+<br/>To bring your home to life, you need decor with outstanding pieces of craftsmanship and art that you can see and feel. Every detail matters – clean designs, meticulous craftsmanship, stunning portraits and artefacts, personal touches and colours, and the highest quality materials. The art is functional, beautiful and has a view. You may never know who created these works of art. However, you know where to order - Handcrafted Haven.
+
+
             </p>
             </div>
             <div className={css.img}>
-                <Image className={css.image} src={AboutImage} alt='about' width={1500} height={1000} />
+                <Image className={css.image} src={AboutImage} alt='about' width={1500} height={1000}  style={{borderRadius:"0px 50px"}}/>
             </div>
             </div>
     )
