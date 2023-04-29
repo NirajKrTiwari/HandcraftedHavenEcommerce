@@ -37,7 +37,7 @@ export default async function(req,res){
                 }
             }),
             success_url:`${req.headers.origin}/success`,
-            cancel_url:`${req.headers.origin}/Cart`,
+            cancel_url:`${req.headers.origin}/cart`,
             };
             const session=await stripe.checkout.sessions.create(params);
             console.log(session);
