@@ -81,8 +81,8 @@ export default function SideBar(props) {
       <div className={css.container}>
         <ul className={css.sideNav}>
           <Link  href="/"><li  onClick={closeSideBar} className={css.nav }>Home</li></Link>
-          <li class={css.dropdown}>
-          <Link class={css.dropbtn} href="/List">Menu</Link>
+          <li className={css.dropdown}>
+          <Link className={css.dropbtn} href="/List">Menu</Link>
           <div class={css.dropdownContent}>
             <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
             <Link href="/List?value=Water+Fountains">Water Fountains</Link>

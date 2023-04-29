@@ -40,8 +40,8 @@ export default function Header() {
         <Link href="/"><li>Home</li></Link>
 
         <li class={css.dropdown}>
-          <Link class={css.dropbtn} href="/List">Menu</Link>
-          <div class={css.dropdownContent}>
+          <Link className={css.dropbtn} href="/List">Menu</Link>
+          <div className={css.dropdownContent}>
             <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
             <Link href="/List?value=Water+Fountains">Water Fountains</Link>
             <Link href="/List?value=Buddha+Idols">Buddha Idols</Link>
