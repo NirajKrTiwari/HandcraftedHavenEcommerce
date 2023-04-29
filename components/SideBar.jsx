@@ -84,12 +84,12 @@ export default function SideBar(props) {
           <li className={css.dropdown}>
           <Link className={css.dropbtn} href="/List">Menu</Link>
           <div className={css.dropdownContent}>
-            <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
-            <Link href="/List?value=Water+Fountains">Water Fountains</Link>
-            <Link href="/List?value=Buddha+Idols">Buddha Idols</Link>
-            <Link href="/List?value=Wall+Hangings">Wall Hangings</Link>
-            <Link href="/List?value=Paintings">Paintings</Link>
-            <Link href="/List?value=Wood+Works">Wood Works</Link>
+            <Link onClick={closeSideBar}href="/List?value=Handicraft+Items">Handicraft Items</Link>
+            <Link  onClick={closeSideBar} href="/List?value=Water+Fountains">Water Fountains</Link>
+            <Link onClick={closeSideBar} href="/List?value=Buddha+Idols">Buddha Idols</Link>
+            <Link onClick={closeSideBar} href="/List?value=Wall+Hangings">Wall Hangings</Link>
+            <Link onClick={closeSideBar} href="/List?value=Paintings">Paintings</Link>
+            <Link onClick={closeSideBar} href="/List?value=Wood+Works">Wood Works</Link>
           </div>
         </li>
           <Link  href="/#about"><li  onClick={closeSideBar} className={css.nav}>About Us</li></Link>
