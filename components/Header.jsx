@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react';
 import { UilReceipt } from '@iconscout/react-unicons';
 import SideBar from './SideBar';
 import Logo from "../assets/Logo.png"
+import DropMenu from './DropMenu';
 
 export default function Header() {
   const items = useStore((state) => state.cart.food.length);
@@ -20,13 +21,13 @@ export default function Header() {
 
   return (
     <div className={css.header} id="App">
-       <div className={css.icon}>
-       {/* <Image src={MenuIcon} width={40} height={40}/> */}
-       <SideBar  />
+      <div className={css.icon}>
+        {/* <Image src={MenuIcon} width={40} height={40}/> */}
+        <SideBar />
       </div>
       <Link href="/">
         <div className={css.logo}>
-          <Image src={Logo} alt="" width={120} height={80} 
+          <Image src={Logo} alt="" width={120} height={80}
           // style={{
           //   borderRadius: "50%",
           //   border: "2px solid var(--themeRed)",
@@ -38,7 +39,19 @@ export default function Header() {
       </Link>
       <ul className={css.menu}>
         <Link href="/"><li>Home</li></Link>
-        <Link href="/List"><li>Menu</li></Link>
+
+        <li class={css.dropdown}>
+          <Link class={css.dropbtn} href="/List">Menu</Link>
+          <div class={css.dropdownContent}>
+            <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
+            <Link href="/List?value=Water+Fountains">Water Fountains</Link>
+            <Link href="/List?value=Buddha+Idols">Buddha Idols</Link>
+            <Link href="/List?value=Wall+Hangings">Wall Hangings</Link>
+            <Link href="/List?value=Paintings">Paintings</Link>
+            <Link href="/List?value=Wood+Works">Wood Works</Link>
+          </div>
+        </li>
+
         <Link href="/about"><li>About</li></Link>
       </ul>
 

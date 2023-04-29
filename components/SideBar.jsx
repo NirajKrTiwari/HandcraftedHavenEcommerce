@@ -81,7 +81,17 @@ export default function SideBar(props) {
       <div className={css.container}>
         <ul className={css.sideNav}>
           <Link  href="/"><li  onClick={closeSideBar} className={css.nav }>Home</li></Link>
-          <Link  href="/List"><li  onClick={closeSideBar} className={css.nav}>Menu</li></Link>
+          <li class={css.dropdown}>
+          <Link class={css.dropbtn} href="/List">Menu</Link>
+          <div class={css.dropdownContent}>
+            <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
+            <Link href="/List?value=Water+Fountains">Water Fountains</Link>
+            <Link href="/List?value=Buddha+Idols">Buddha Idols</Link>
+            <Link href="/List?value=Wall+Hangings">Wall Hangings</Link>
+            <Link href="/List?value=Paintings">Paintings</Link>
+            <Link href="/List?value=Wood+Works">Wood Works</Link>
+          </div>
+        </li>
           <Link  href="/#about"><li  onClick={closeSideBar} className={css.nav}>About Us</li></Link>
         </ul>
       </div>
