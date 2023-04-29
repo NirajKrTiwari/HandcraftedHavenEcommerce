@@ -10,8 +10,8 @@ export default function About() {
                 <div className={css.content}>
                 <h1>About</h1>
             <p>
-            Handcrafted Haven offers access to reserves of handcrafted artefacts - either richly curated by partnering with empanelled artisan communities and independent artists. Borrowing inspiration from our \"Rajasthani Karigar\" roots, we devote this gateway to the uniformly evolving and ever-inspirational creation of Indian Artisanship.
-<br/>Our mission is to offer the global audience a gateway to hand-picked Indian artefacts and incite a conversation dedicated to conserving arts and crafts. Rajasthan is famously known for the \"Treasure trove of Indian handicrafts\". These handicrafts have also earned the country endless love. Hence, we bring your handiworks directly here from Rajasthan under one roof.
+            Handcrafted Haven offers access to reserves of handcrafted artefacts - either richly curated by partnering with empanelled artisan communities and independent artists. Borrowing inspiration from our <q>Rajasthani Karigar</q> roots, we devote this gateway to the uniformly evolving and ever-inspirational creation of Indian Artisanship.
+<br/>Our mission is to offer the global audience a gateway to hand-picked Indian artefacts and incite a conversation dedicated to conserving arts and crafts. Rajasthan is famously known for the \"Treasure trove <q>of Indian handicrafts</q>. These handicrafts have also earned the country endless love. Hence, we bring your handiworks directly here from Rajasthan under one roof.
 <br/>To bring your home to life, you need decor with outstanding pieces of craftsmanship and art that you can see and feel. Every detail matters – clean designs, meticulous craftsmanship, stunning portraits and artefacts, personal touches and colours, and the highest quality materials. The art is functional, beautiful and has a view. You may never know who created these works of art. However, you know where to order - Handcrafted Haven.
             </p>
             </div>
