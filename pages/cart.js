@@ -11,7 +11,7 @@ import { UilTrash } from '@iconscout/react-unicons';
 import { client } from '../lib/client';
 import Head from "next/head";
 import favicon from "./favicon.ico"
-export default function Cart (){
+export default function cart (){
     const router=useRouter();
     const CartData= useStore((state)=>state.cart);
     const removeFood =useStore((state)=>state.removeFood);
