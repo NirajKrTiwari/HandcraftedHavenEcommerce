@@ -8,7 +8,6 @@ import { useEffect, useState } from 'react';
 import { UilReceipt } from '@iconscout/react-unicons';
 import SideBar from './SideBar';
 import Logo from "../assets/Logo.png"
-import DropMenu from './DropMenu';
 
 export default function Header() {
   const items = useStore((state) => state.cart.food.length);
