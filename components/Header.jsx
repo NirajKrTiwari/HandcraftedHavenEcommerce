@@ -39,7 +39,7 @@ export default function Header() {
       <ul className={css.menu}>
         <Link href="/"><li>Home</li></Link>
 
-        <li class={css.dropdown}>
+        <li className={css.dropdown}>
           <Link className={css.dropbtn} href="/List">Menu</Link>
           <div className={css.dropdownContent}>
             <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
