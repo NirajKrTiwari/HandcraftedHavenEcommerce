@@ -63,3 +63,16 @@
 .dropdown:hover .dropdownContent {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Menu */
+.dropdownContent span{
+  list-style: none;
+  padding: 5px 15px;
+  color: black;
+  flex-direction: column;
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 15px;
+}

@@ -24,7 +24,7 @@ export default function Hero() {
           <span>Be The Fastest</span>
           <span>In Delivering</span>
           <span>
-            ~Your <span style={{ color:'#e70001' }}>Handmade Haven</span>
+            ~Your <span style={{ color:'#e70001' }}>Handcrafted Haven</span>
           </span>
         </div>
         <span className={css.miniText}>

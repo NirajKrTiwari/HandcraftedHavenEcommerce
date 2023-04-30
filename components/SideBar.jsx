@@ -82,14 +82,14 @@ export default function SideBar(props) {
         <ul className={css.sideNav}>
           <Link  href="/"><li  onClick={closeSideBar} className={css.nav }>Home</li></Link>
           <li className={css.dropdown}>
-          <Link className={css.dropbtn} href="/List">Menu</Link>
+          <Link className={css.dropbtn} href="/List">Products</Link>
           <div className={css.dropdownContent}>
-            <Link onClick={closeSideBar}href="/List?value=Handicraft+Items">Handicraft Items</Link>
-            <Link  onClick={closeSideBar} href="/List?value=Water+Fountains">Water Fountains</Link>
-            <Link onClick={closeSideBar} href="/List?value=Buddha+Idols">Buddha Idols</Link>
-            <Link onClick={closeSideBar} href="/List?value=Wall+Hangings">Wall Hangings</Link>
-            <Link onClick={closeSideBar} href="/List?value=Paintings">Paintings</Link>
-            <Link onClick={closeSideBar} href="/List?value=Wood+Works">Wood Works</Link>
+            <Link href="/List?value=Handicraft+Items"><span onClick={closeSideBar}>Handicraft Items</span></Link>
+            <Link  onClick={closeSideBar} href="/List?value=Water+Fountains"><span onClick={closeSideBar}>Water Fountains</span></Link>
+            <Link onClick={closeSideBar} href="/List?value=Buddha+Idols"><span onClick={closeSideBar}>Buddha Idols</span></Link>
+            <Link onClick={closeSideBar} href="/List?value=Wall+Hangings"><span onClick={closeSideBar}>Wall Hangings</span></Link>
+            <Link onClick={closeSideBar} href="/List?value=Paintings"><span onClick={closeSideBar}>Paintings</span></Link>
+            <Link onClick={closeSideBar} href="/List?value=Wood+Works"><span onClick={closeSideBar}>Wood Works</span></Link>
           </div>
         </li>
           <Link  href="/#about"><li  onClick={closeSideBar} className={css.nav}>About Us</li></Link>

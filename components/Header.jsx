@@ -33,14 +33,14 @@ export default function Header() {
           //   padding: "5px"
           // }}
           />
-          {/* <h2>Handmade Haven</h2> */}
+          {/* <h2>Handcrafted Haven</h2> */}
         </div>
       </Link>
       <ul className={css.menu}>
         <Link href="/"><li>Home</li></Link>
 
         <li className={css.dropdown}>
-          <Link className={css.dropbtn} href="/List">Menu</Link>
+          <Link className={css.dropbtn} href="/List">Products</Link>
           <div className={css.dropdownContent}>
             <Link href="/List?value=Handicraft+Items">Handicraft Items</Link>
             <Link href="/List?value=Water+Fountains">Water Fountains</Link>
