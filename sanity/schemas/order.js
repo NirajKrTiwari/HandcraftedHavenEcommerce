@@ -52,7 +52,7 @@ export default
         },
         {
             name: 'status',
-            title: 'Status (Type: 1. COD,2. Cooking,3. Onway,4. Delivered)',
+            title: 'Status (Type: 1. COD,2. Packing,3. Onway,4. Delivered)',
             type: 'number',
         },
         {
