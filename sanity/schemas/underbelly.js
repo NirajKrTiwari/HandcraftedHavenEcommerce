@@ -42,10 +42,5 @@ export default
             title: 'category',
             type: "string"
         },
-        {
-            name: 'time',
-            title: 'preperation time',
-            type: 'number'
-        }
     ]
 }
